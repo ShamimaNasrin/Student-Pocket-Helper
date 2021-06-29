@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69e2ff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="#0C2A5C"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TO CONTINUE"
+            android:textColor="#0C2A5C"
+            android:layout_marginTop="10sp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380sp"
+        android:layout_height="600sp"
+        android:background="#fff"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="40sp"
+            >
+            <EditText
+                android:id="@+id/usernameET"
+                android:layout_width="240sp"
+                android:layout_height="45sp"
+                android:hint="Enter Username"
+                android:gravity="center"
+                android:textSize="23sp"
+                android:background="@drawable/customize_edittext"/>
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_width="240sp"
+                android:layout_height="45sp"
+                android:hint="Enter Password"
+                android:gravity="center"
+                android:layout_marginTop="15sp"
+                android:inputType="textPassword"
+                android:textSize="23sp"
+                android:background="@drawable/customize_edittext"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="50sp"
+            >
+
+            <Button
+                android:id="@+id/loginButtonID"
+                android:layout_width="240sp"
+                android:layout_height="45sp"
+                android:text="Login"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="@drawable/customize_edittext"
+                android:backgroundTint="#0081cb"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO ACCOUNT?"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_marginTop="18sp"/>
+
+            <Button
+                android:id="@+id/signUpButtonID"
+                android:layout_width="240sp"
+                android:layout_height="45sp"
+                android:text="SignUp"
+                android:textColor="#fff"
+                android:background="@drawable/customize_edittext"
+                android:backgroundTint="#0081cb"
+                android:layout_marginTop="15sp"
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Student Pocket Helper</string>
+    <string-array name="Featured_name">
+        <item>Country Profile</item>
+        <item>Clock</item>
+        <item>Counter</item>
+        <item>Gallery</item>
+        <item>Calculator</item>
+        <item>Currency Converter</item>
+    </string-array>
+    <string-array name="Operator">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="County_names">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Argentina</item>
+        <item>Greece</item>
+        <item>Japan</item>
+    </string-array>
+    <string-array name="County_details">
+        <item>Capital: Dhaka \nPrime minister: Sheikh Hasina \nOfficial language: Bengali \nDialing code: +880 \nCurrency: Taka</item>
+        <item>Capital: New Delhi \nPrime minister: Narendra Modi \nOfficial language: Hindi, English \nDialing code: +91 \nCurrency: Indian rupee</item>
+        <item>Capital: Islamabad \nPresident: Arif Alvi \nOfficial language: English, Urdu \nDialing code: +92 \nCurrency: Pakistani rupee</item>
+        <item>Capital: Buenos Aires \nPresident: Alberto Fernandez \nOfficial language: Spanish \nDialing code: +54\nCurrency: Argentine peso</item>
+        <item>Capital: Athens \nPresident: Katerina Sakellaropoulou \nOfficial language: Greek \nDialing code: +30 \nCurrency: Euro</item>
+        <item>Capital: Tokyo \nPrime minister: Yoshihide Suga \nOfficial language: Japanese \nDialing code: +81 \nCurrency: Japanese yen</item>
+    </string-array>
+
+</resources>

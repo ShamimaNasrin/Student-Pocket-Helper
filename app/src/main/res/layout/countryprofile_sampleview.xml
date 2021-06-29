@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/countrysampleimageviewID"
+        android:layout_width="95sp"
+        android:layout_height="95sp"
+        android:src="@drawable/argentina"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="15sp"/>
+
+        <TextView
+            android:id="@+id/sampletextviewID"
+            android:layout_width="wrap_content"
+            android:layout_height="95sp"
+            android:hint="country name"
+            android:layout_marginTop="5sp"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:layout_marginLeft="15sp"
+            android:textSize="25sp"/>
+
+
+</LinearLayout>

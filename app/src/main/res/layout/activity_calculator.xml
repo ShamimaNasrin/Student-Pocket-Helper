@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#69e2ff"
+    tools:context=".CalculatorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textColor="#0C2A5C"
+        android:textSize="35sp"/>
+
+    <LinearLayout
+        android:layout_width="350sp"
+        android:layout_height="460sp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginTop="30sp"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/AnswerTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:hint="00"
+        android:layout_marginTop="50sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/FirstinputETID"
+            android:layout_width="220sp"
+            android:layout_height="45sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:background="@drawable/customize_edittext"
+            android:hint="Enter first input"
+            android:inputType="number"
+            android:textColor="#000" />
+
+        <EditText
+        android:id="@+id/SecondinputETID"
+        android:layout_width="220sp"
+        android:layout_height="45sp"
+        android:hint="Enter second input"
+        android:textColor="#000"
+            android:gravity="center"
+            android:inputType="number"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/customize_edittext"/>
+    <GridView
+        android:id="@+id/calculatorGVID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:backgroundTint="#69e2ff"
+        android:layout_marginTop="40sp"
+        android:layout_marginStart="8dp"
+        android:layout_margin="10dp"
+        android:listSelector="#D8EAED"
+        android:gravity="center_vertical"
+        android:background="#191B1E"
+        android:horizontalSpacing="8sp"
+        android:verticalSpacing="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

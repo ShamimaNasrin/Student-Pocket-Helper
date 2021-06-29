@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="330sp"
+        android:layout_height="300sp"
+        android:layout_marginTop="23sp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/helptextviewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="at first, u have to log in with your username and password and if you are not registered yet then you have to sign up first. Then go to the homepage and click any of the following applications."
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_marginBottom="23sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
